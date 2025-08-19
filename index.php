@@ -1,9 +1,9 @@
 <?php
 // Reads the variables sent via POST at gateway
-$sessionId   = $_POST["sessionId"]   ?? null;
-$serviceCode = $_POST["serviceCode"] ?? null;
-$phoneNumber = $_POST["phoneNumber"] ?? null;
-$text        = $_POST["text"]        ?? "";
+$sessionId   = $_POST["sessionId"];
+$serviceCode = $_POST["serviceCode"];
+$phoneNumber = $_POST["phoneNumber"];
+$text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request
